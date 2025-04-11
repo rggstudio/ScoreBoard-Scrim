@@ -1,5 +1,9 @@
 body {
     margin: 0;
+    min-height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
 }
 
 @font-face {
@@ -9,12 +13,13 @@ body {
 
 .container {
     display: flex;
-    margin: 0 auto;
     justify-content: space-around;
-    max-width: 575px;
+    align-items: flex-start;
+    width: 575px;
     background-color: #1B244A;
     color: white;
-    padding-bottom: 50px;    
+    padding: 30px;
+    gap: 50px;
 }
 
 H3 {
@@ -44,9 +49,7 @@ H3 {
     align-items: center;
     width: 155px;
     height: 120px;
-    text-align: center;
     font-size: 90px;
-    font-weight: 400;
     font-family: Cursed Timer ULiL, Verdana, sans-serif, Verdana;
     color: #F94F6D; 
 }
