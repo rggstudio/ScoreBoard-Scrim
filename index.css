@@ -1,0 +1,72 @@
+body {
+    margin: 0;
+}
+
+@font-face {
+  font-family: Cursed Timer ULiL;
+  src: url(CursedTimerUlil-Aznm.ttf);
+}
+
+.container {
+    display: flex;
+    margin: 0 auto;
+    justify-content: space-around;
+    max-width: 575px;
+    background-color: #1B244A;
+    color: white;
+    padding-bottom: 50px;    
+}
+
+H3 {
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-weight: 700;
+    font-size: 40px;
+    margin: 5px 0px;
+    text-align: center;
+}
+
+#homeScore {
+    background-color: #080001;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 155px;
+    height: 120px;
+    font-size: 90px;
+    font-family: Cursed Timer ULiL, sans-serif, Verdana;
+    color: #F94F6D;
+}
+
+#guestScore {
+    background-color: #080001;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 155px;
+    height: 120px;
+    text-align: center;
+    font-size: 90px;
+    font-weight: 400;
+    font-family: Cursed Timer ULiL, Verdana, sans-serif, Verdana;
+    color: #F94F6D; 
+}
+
+.score-btns {
+    display: flex;
+    justify-content: space-around;
+    margin-top: 20px;;
+}
+
+.score-btn {
+    border: 2px solid #9AABD8;
+    border-radius: 5px;
+    height: 45px;
+    width: 45px;
+    color: #9AABD8;
+    font-size: 18px;
+    font-family: Cursed Timer ULiL, Verdana, Geneva, Tahoma, sans-serif;
+    display: flex;             /* Enable Flexbox */
+    justify-content: center;   /* Center horizontally */
+    align-items: center;       /* Center vertically */
+}
+
